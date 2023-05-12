@@ -13,21 +13,21 @@
         <description>Input a number and return the date that many days ago</description>
         <ih_action>false</ih_action>
         <internal_name>get_days_ago_date</internal_name>
-        <label_cache>[{"name":"{{action.days_ago}}","label":"action➛Days Ago","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98b508d8-7846-4c64-a2a8-8bd5fb53baa3].variable}}","label":"step➛ Look up App Property➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98b508d8-7846-4c64-a2a8-8bd5fb53baa3].property_valuea}}","label":"step➛ Look up App Property➛Property valuea","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[98b508d8-7846-4c64-a2a8-8bd5fb53baa3].property_value}}","label":"step➛ Look up App Property➛Property value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[9e3b0402-4b43-4388-94f0-da1dbc206731].variable}}","label":"step➛Calculate daysAgo Date➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9e3b0402-4b43-4388-94f0-da1dbc206731].nes_date}}","label":"step➛Calculate daysAgo Date➛Nes Date","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[9e3b0402-4b43-4388-94f0-da1dbc206731].new_date}}","label":"step➛Calculate daysAgo Date➛New Date","type":"step","ref":"","reference_display":"","base_type":"glide_date","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.days_ago}}","label":"action➛Days Ago","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98b508d8-7846-4c64-a2a8-8bd5fb53baa3].variable}}","label":"step➛ Look up App Property➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[98b508d8-7846-4c64-a2a8-8bd5fb53baa3].property_valuea}}","label":"step➛ Look up App Property➛Property valuea","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[98b508d8-7846-4c64-a2a8-8bd5fb53baa3].property_value}}","label":"step➛ Look up App Property➛Property value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[9e3b0402-4b43-4388-94f0-da1dbc206731].variable}}","label":"step➛Calculate daysAgo Date➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9e3b0402-4b43-4388-94f0-da1dbc206731].nes_date}}","label":"step➛Calculate daysAgo Date➛Nes Date","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[9e3b0402-4b43-4388-94f0-da1dbc206731].new_date}}","label":"step➛Calculate daysAgo Date➛New Date","type":"step","ref":"","reference_display":"","base_type":"glide_date","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Date","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"glide_date","uiUniqueId":"e9957541-9d93-4297-b0aa-4803d6ca42f8"}}]</label_cache>
         <master_snapshot>6c4162cc47f6e110cb798c38c26d43d4</master_snapshot>
         <name>Get Days Ago Date</name>
         <natlang/>
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-09 16:25:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bb5dde8847f6e110cb798c38c26d4308</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Get Days Ago Date</sys_name>
         <sys_overrides/>
         <sys_package display_value=" NeedIt Spoke" source="x_938877_needit_0">a0a62ebb476aa110cb798c38c26d43de</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value=" NeedIt Spoke">a0a62ebb476aa110cb798c38c26d43de</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_bb5dde8847f6e110cb798c38c26d4308</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-09 16:42:35</sys_updated_on>
+        <sys_updated_on>2023-05-12 12:12:59</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
