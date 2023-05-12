@@ -1,2 +1,2 @@
 # Needit-Spoke
-Servicenow Needit Spoke application repository
+Developing for Flow Designer module NeedIt Spoke repository
